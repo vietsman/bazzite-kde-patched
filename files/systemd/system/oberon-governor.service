@@ -1,0 +1,11 @@
+[Unit]
+Description=Oberon GPU Frequency Governor
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/oberon-governor
+RestartSec=5
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

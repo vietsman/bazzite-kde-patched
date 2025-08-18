@@ -1,0 +1,7 @@
+opps:
+  - frequency:
+    - min: 350
+    - max: 2230
+  - voltage:
+    - min: 600
+    - max: 1060
