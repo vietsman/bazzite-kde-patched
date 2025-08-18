@@ -1,7 +1,7 @@
 ---
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 # image will be published to ghcr.io/<user>/<name>
-name: bc250-patched-kernel
+name: bazzite-kde-patched
 description: My personal Bazzite OS image with patched kernel raising GPU max frequency to 2230 MHz (from 2000 MHz), lowering min GPU frequency to 350 MHz (from 1000 MHz), and oberon-governor included.
 
 # base image to build on top of
